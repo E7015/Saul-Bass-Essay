@@ -1,0 +1,178 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {background-color: #ffffff}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(227, 8, 0, 1);
+    overflow:auto;
+}
+
+.navbar a {
+    float:left;
+    padding: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    width: 16.66%;
+    text-align: center;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.topnav a{
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.flex-container-backround-image {
+    background-image: url(/Images/Vector\ 1.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-did {
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.saul-bass {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+    color: rgba(227, 8, 0, 1);
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.transcend {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.the {
+    position: absolute;
+    top: 48%;
+    left: 37.5%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.boundaries {
+    position: absolute;
+    top: 49%;
+    left: 55%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.of-design {
+    position: absolute;
+    top: 59%;
+    left: 55%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+.in-cinema {
+    position: absolute;
+    top: 69%;
+    left: 62%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+.color-block {
+    background-color: rgba(19, 17, 19, 1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-color-block {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    color: rgba(227, 8, 0, 1);
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    letter-spacing: 4%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.intro-para {
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    line-height: 80px;
+    margin-left: 270px;
+    margin-right: 168px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quote {
+    border-left: 42px solid rgba(227, 8, 0, 1);
+    padding: 1.5rem 0 1.5rem 2rem;
+    margin-bottom: 2rem;
+    margin-left: 70px;
+}
