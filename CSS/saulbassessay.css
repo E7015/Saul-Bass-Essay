@@ -51,7 +51,7 @@ body {background-color: #ffffff}
 }
 
 .flex-container-backround-image {
-    background-image: url(/Images/Vector\ 1.png);
+    background-image: url(/images/vector1.png);
     display:flex;
     justify-content: center;
     align-items: center;
