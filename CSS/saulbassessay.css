@@ -139,6 +139,7 @@ h1 {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .flex-container-color-block {
@@ -153,8 +154,9 @@ h1 {
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
     font-weight: 50;
     letter-spacing: 4%;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 168px;
+    margin-top: 0px;
+    padding-top: 50px;
 }
 
 .intro-para {
@@ -164,15 +166,138 @@ h1 {
     font-weight: 400;
     letter-spacing: 2%;
     line-height: 80px;
-    margin-left: 270px;
+    margin-left: 168px;
+    margin-right: 168px;
+    margin-top: 80px;
+}
+
+.container {
+    position: relative;
+    color: #ffffff;
+}
+
+.overlay {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    top: 28%;
+    left: 75%;
+}
+
+.overlay-2 {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    top: 68%;
+    left: 75%;
+}
+
+.saul-bass-subhead, .film-poster-revolution {
+    color: rgba(227, 8, 0, 1);
+    font-size: 48px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    letter-spacing: 4%;
+    margin-left: 168px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bass-portrait-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bass-para {
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2%;
+    line-height: 80px;
+    margin-left: 168px;
     margin-right: 168px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
 
-.quote {
-    border-left: 42px solid rgba(227, 8, 0, 1);
-    padding: 1.5rem 0 1.5rem 2rem;
-    margin-bottom: 2rem;
+.about-bass-quote {
+    color: rgba(227, 8, 0, 1);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 2%;
+    line-height: 80px;
     margin-left: 70px;
+    margin-right: 168px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-bass-quote-line {
+    border-left: 5px solid rgba(227, 8, 0, 1);
+    height: 180px;
+    margin-bottom: 0rem;
+    margin-left: 100px;
+    margin-top: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colour-block-red {
+    border-left: 42px solid rgba(227, 8, 0, 1);
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-top: 0px;
+    height: 300px;
+    margin-right: 0px;
+}
+
+
+.colour-block-red-2 {
+    border-left: 42px solid rgba(227, 8, 0, 1);
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-top: 0px;
+    height: 300px;
+    margin-right: 0px;
+    height: 1400px;
+}
+
+.container-posters {
+    position: relative;
+}
+
+.overlay-posters {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    top: 38%;
+    left: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
