@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-size: 100%;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 body {background-color: #ffffff}
@@ -39,15 +39,6 @@ body {background-color: #ffffff}
 
 .navbar a:hover {
     color: black;
-}
-
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
 }
 
 .flex-container-backround-image {
@@ -140,6 +131,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
+    width: 100vw;
 }
 
 .flex-container-color-block {
@@ -161,11 +153,10 @@ h1 {
 
 .intro-para {
     color: black;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 2%;
-    line-height: 80px;
     margin-left: 168px;
     margin-right: 168px;
     margin-top: 80px;
@@ -217,42 +208,74 @@ h1 {
     align-items: center;
 }
 
-.about-bass-para, .poster-paras {
+.about-bass-para, .about-bass-para-2 {
     color: black;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     letter-spacing: 2%;
-    line-height: 80px;
     margin-left: 168px;
     margin-right: 168px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
-.about-bass-quote, .poster-quote {
-    color: rgba(227, 8, 0, 1);
+.poster-para-1 {
+    color: black;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 168px;
+    margin-right: 168px;
+}
+
+.poster-para-2 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.poster-para-3, .poster-para-4, .poster-para-5 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-bass-quote {
+    color: rgba(227, 8, 0, 1);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 2%;
     line-height: 80px;
-    margin-left: 70px;
+    margin-left: 68px;
     margin-right: 168px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
+
 
 .about-bass-quote-line {
     border-left: 5px solid rgba(227, 8, 0, 1);
-    height: 180px;
-    margin-bottom: 0rem;
+    height: 100px;
     margin-left: 100px;
-    margin-top: 0;
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .colour-block-red {
@@ -260,7 +283,7 @@ h1 {
     margin-bottom: 0px;
     margin-left: 70px;
     margin-top: 0px;
-    height: 360px;
+    height: 480px;
     margin-right: 0px;
 }
 
@@ -271,7 +294,7 @@ h1 {
     margin-top: 0px;
     height: 300px;
     margin-right: 0px;
-    height: 1400px;
+    height: 1450px;
 }
 
 .container-posters {
@@ -315,13 +338,15 @@ h1 {
 
 .poster-line {
     border-left: 5px solid rgba(227, 8, 0, 1);
-    height: 180px;
+    height: 140px;
     margin-bottom: 0rem;
-    margin-left: 100px;
-    margin-top: 0;
+    margin-left: -72px;
+    padding-right: 40px;
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .colour-block-red-3 {
@@ -329,13 +354,17 @@ h1 {
     margin-bottom: 0px;
     margin-left: 70px;
     margin-top: 0px;
-    height: 300px;
     margin-right: 0px;
-    height: 1350px;
+    height: 1600px;
 }
 
 .container-sequences {
-    position: relative;
+   position: relative;
+}
+
+.title-component {
+    width: 100vw;
+    border-left: 0;
 }
 
 .how-did-2 {
@@ -417,14 +446,27 @@ h1 {
 .title-sequence-opening-para {
     color: black;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     letter-spacing: 2%;
     line-height: 80px;
     margin-left: 168px;
     margin-right: 168px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.title-sequences-paras {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    line-height: 80px;
+    margin-left: 168px;
+    margin-right: 168px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .title-sequence-column {
@@ -446,19 +488,6 @@ h1 {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 30px;
-}
-
-.title-sequences-paras {
-    color: black;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 200;
-    letter-spacing: 2%;
-    line-height: 80px;
-    margin-left: 168px;
-    margin-right: 168px;
-    margin-top: 30px;
-    margin-bottom: 80px;
 }
 
 .title-sequences-quote {
@@ -616,4 +645,83 @@ h1 {
 
 #myBtn:hover {
     background-color: rgb(49, 49, 49);
+}
+
+.color-block {
+    width: 100%;
+    height: auto;
+  }
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Extra small devices (small phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and down) */
+@media only screen and (max-width: 1440px) {
+    .of-design {
+        top: 59%;
+        left: 60%;
+    }
+
+    .boundaries {
+        top: 49%;
+        left: 54%;
+    }
+
+    .how-did {
+        top: 18%;
+        left: 30%;
+    }
+    
+    .saul-bass {
+        top: 28%;
+        left: 26%;
+    }
+    
+    .transcend {
+        top: 38%;
+        left: 24%;
+    }
+    
+    .the {
+        top: 48%;
+        left: 37%;
+    }
+    
+    .in-cinema {
+        top: 69%;
+        left: 62%;
+    }
+
+    .sequences-quote {
+        top: 50%;
+        left: 31%;
+        margin-right: 300px;
+    }
+
 }
