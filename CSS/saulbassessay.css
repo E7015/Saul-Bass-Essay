@@ -208,7 +208,7 @@ h1 {
     align-items: center;
 }
 
-.about-bass-para, .about-bass-para-2 {
+.about-bass-para {
     color: black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -216,8 +216,20 @@ h1 {
     letter-spacing: 2%;
     margin-left: 168px;
     margin-right: 168px;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about-bass-para-2 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-left: 168px;
+    margin-right: 168px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .poster-para-1 {
@@ -226,8 +238,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 2%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     margin-left: 168px;
     margin-right: 168px;
 }
@@ -238,8 +250,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 2%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .poster-para-3, .poster-para-4, .poster-para-5 {
@@ -248,11 +260,11 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 2%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.about-bass-quote {
+.about-bass-quote, .title-sequences-quote {
     color: rgba(227, 8, 0, 1);
     font-size: 40px;
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
@@ -266,8 +278,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-
-.about-bass-quote-line {
+.about-bass-quote-line, .title-sequences-line {
     border-left: 5px solid rgba(227, 8, 0, 1);
     height: 100px;
     margin-left: 100px;
@@ -435,12 +446,25 @@ h1 {
     margin-right: 375px;
 }
 
+.sequences-quote-credit {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    top: 65%;
+    left: 31%;
+    margin-right: 375px;
+}
+
 .colour-block-red-4 {
     border-left: 42px solid rgba(227, 8, 0, 1);
     margin-bottom: 0px;
     margin-left: 70px;
     margin-top: 0px;
-    height: 2350px;
+    height: 4650px;
 }
 
 .title-sequence-opening-para {
@@ -456,7 +480,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.title-sequences-paras {
+.title-sequence-opening-para-2 {
     color: black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -466,7 +490,33 @@ h1 {
     margin-left: 168px;
     margin-right: 168px;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+.title-sequences-para-1, .title-sequences-para-3, .title-sequences-para-5 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    line-height: 80px;
+    margin-left: 168px;
+    margin-right: 168px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.title-sequences-para-2, .title-sequences-para-4, .title-sequences-para-6 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    line-height: 80px;
+    margin-left: 168px;
+    margin-right: 168px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .title-sequence-column {
@@ -474,45 +524,12 @@ h1 {
     margin-left: 168px;
 }
 
-.psycho-title {
+.golden-arm-title, .vertigo-title, .psycho-title {
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.vertigo-title {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.title-sequences-quote {
-    color: rgba(227, 8, 0, 1);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 200;
-    letter-spacing: 2%;
-    line-height: 80px;
-    margin-left: 70px;
-    margin-right: 168px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.title-sequences-line {
-    border-left: 5px solid rgba(227, 8, 0, 1);
-    height: 180px;
-    margin-bottom: 0rem;
-    margin-left: 100px;
-    margin-top: 0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-conclusion {
@@ -533,15 +550,14 @@ h1 {
 .conclusion-para {
     color: black;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     letter-spacing: 2%;
     line-height: 80px;
     margin-left: 168px;
     margin-right: 168px;
-    margin-top: 0px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .colour-block-red-5 {
@@ -549,14 +565,18 @@ h1 {
     margin-bottom: 0px;
     margin-left: 70px;
     margin-top: 0px;
-    height: 540px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .colour-block-black-6 {
     color: black;
     background-color: black;
     width: 100vw;
-    height: 1000px;
+    height: 2100px;
+    margin-top: 0px;
 }
 
 .bibliography {
@@ -582,7 +602,7 @@ h1 {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 140px;
-    padding-right: 300px;
+    margin-right: 1000px;
 }
 
 .images-refs {
@@ -592,37 +612,64 @@ h1 {
     font-weight: 600;
     font-style: normal;
     font-size: 48px;
-    margin-left: 400px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-top: 140px;
-    padding-left: 500px;
-}
-
-.mail {
-    margin-left: 560px;
-}
-
-.insta {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.twitter {
-    margin-left: 1400px;
-}
-
-.credit {
-    position: absolute;
-    color: #ffffff;
-    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 48px;
     margin-left: 185px;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-top: 1000px;
+}
+
+.website-list {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-left: 185px;
+    margin-right: 168px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 350px;
+}
+
+.image-list {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-left: 185px;
+    margin-right: 168px;
+    margin-top: 240px;
+    margin-bottom: 60px;
+}
+
+.italics {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2%;
+    font-style: italic;
+    display: inline;
+}
+
+.media-red {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 600px;
+}
+
+.credit {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #myBtn {
