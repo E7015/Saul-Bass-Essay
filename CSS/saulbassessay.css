@@ -687,4 +687,269 @@ h1 {
 .color-block {
     width: 100%;
     height: auto;
-  }
+}
+
+/* 4K devices (2560px and up) */
+@media only screen and (min-width: 2560px) {
+    .how-did, .saul-bass, .transcend, .the, .boundaries, .of-design, .in-cinema, .how-did-2, .saul-bass-2, .redefine-2, .film-title-2, .sequences-2 {
+        font-size: 100px;
+    }
+    .film-title-2 {
+        left: 33%;
+    }
+    .how-did {
+        top: 9%;
+        left: 27%;
+    }
+    .saul-bass {
+        top: 18%;
+        left: 22%;
+    }
+    .transcend {
+        top: 28%;
+        left: 20%;
+    }
+    .the {
+        top: 37%;
+        left: 34%;
+    }
+    .boundaries {
+        top: 37%;
+        left: 56%;
+    }
+    .of-design {
+        top: 47%;
+        left: 63%;
+    }
+    .in-cinema {
+        top: 57%;
+        left: 62%;
+    }
+    .navbar a {
+        padding: 40px;
+        font-size: 40px;
+        width: 16.66%;
+    }
+    #myBtn {
+        padding: 25px; 
+        border-radius: 20px; 
+        font-size: 40px; 
+        letter-spacing: 8%;
+    }
+    .intro-para, .about-bass-para, .about-bass-para-2, .poster-para-1, .poster-para-2, .poster-para-3, .poster-para-4, .poster-para-5, .title-sequence-opening-para, .title-sequence-opening-para-2, .title-sequences-para-1, .title-sequences-para-2, .title-sequences-para-3, .title-sequences-para-4, .title-sequences-para-5, .title-sequences-para-6, .conclusion-para {
+        font-size: 38px;
+    }
+    .colour-block-red {
+        height: 600px;
+    }
+    .intro, .saul-bass-subhead, .film-poster-revolution, .title-sequences-subtitle {
+        font-size: 60px;
+    }
+    .overlay, .overlay-2, .overlay-posters, .overlay-conclusion {
+        font-size: 100px;
+    }
+    .images-refs {
+        margin-top: 1100px;
+    }
+    .media-red {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 800px;
+    }
+    .colour-block-red-2 {
+        height: 2000px;
+    }
+    .colour-block-red-3 {
+        height: 2200px;
+    }
+    .about-bass-quote, .title-sequences-quote {
+        font-size: 60px;
+    }
+    .about-bass-quote-line, .title-sequences-line {
+        height: 150px;
+    }
+    .colour-block-red-4 {
+        height: 6000px;
+    }
+    .colour-block-red-5 {
+        height: 700px;
+    }
+    .sequences-quote {
+        font-size: 80px;
+    }
+    .sequences-quote-credit {
+        font-size: 40px;
+    }
+    .website-list, .image-list, .italics {
+        font-size: 30px;
+    }
+ }
+
+/* 4K devices (2400px and up) */
+@media only screen and (min-width: 2400px) {
+    .how-did, .saul-bass, .transcend, .the, .boundaries, .of-design, .in-cinema, .how-did-2, .saul-bass-2, .redefine-2, .film-title-2, .sequences-2 {
+        font-size: 90px;
+    }
+    .film-title-2 {
+        left: 33%;
+    }
+    .how-did {
+        top: 10%;
+        left: 27%;
+    }
+    .saul-bass {
+        top: 16%;
+        left: 22%;
+    }
+    .transcend {
+        top: 22%;
+        left: 20%;
+    }
+    .the {
+        top: 28%;
+        left: 34%;
+    }
+    .boundaries {
+        top: 32%;
+        left: 56%;
+    }
+    .of-design {
+        top: 38%;
+        left: 63%;
+    }
+    .in-cinema {
+        top: 44%;
+        left: 62%;
+    }
+    .navbar a {
+        padding: 35px;
+        font-size: 36px;
+        width: 16.66%;
+    }
+    .sequences-quote-credit {
+        margin-top: 200px;
+    }
+
+    .colour-block-red-4 {
+        height: 6500px;
+    }
+}
+
+/* 4K devices (2098px and up) */
+@media only screen and (min-width: 2098px) {
+    .navbar a {
+        padding: 30px;
+        font-size: 26px;
+        width: 16.66%;
+    }
+    .how-did, .saul-bass, .transcend, .the, .boundaries, .of-design, .in-cinema, .how-did-2, .saul-bass-2, .redefine-2, .film-title-2, .sequences-2 {
+        font-size: 65px;
+    }
+    .how-did {
+        top: 9%;
+        left: 32%;
+    }
+    .saul-bass {
+        top: 16%;
+        left: 26%;
+    }
+    .transcend {
+        top: 23%;
+        left: 25%;
+    }
+    .the {
+        top: 30%;
+        left: 35%;
+    }
+    .boundaries {
+        top: 30%;
+        left: 56%;
+    }
+    .of-design {
+        top: 37%;
+        left: 63%;
+    }
+    .in-cinema {
+        top: 44%;
+        left: 62%;
+    }
+    .sequences-quote-credit {
+        margin-top: 200px;
+    }
+ }
+
+/* 4K devices (1920px and up) */
+@media only screen and (min-width: 1920px) {
+    .how-did, .saul-bass, .transcend, .the, .boundaries, .of-design, .in-cinema, .how-did-2, .saul-bass-2, .redefine-2, .film-title-2, .sequences-2 {
+        font-size: 55px;
+    }
+    .how-did {
+        top: 11%;
+        left: 32%;
+    }
+    .saul-bass {
+        top: 16%;
+        left: 26%;
+    }
+    .transcend {
+        top: 21%;
+        left: 25%;
+    }
+    .the {
+        top: 26%;
+        left: 35%;
+    }
+    .boundaries {
+        top: 33%;
+        left: 56%;
+    }
+    .of-design {
+        top: 38%;
+        left: 63%;
+    }
+    .in-cinema {
+        top: 43%;
+        left: 62%;
+    }
+    .sequences-quote-credit {
+        margin-top: 200px;
+    }
+}
+
+/* Laptop L (1440px) */
+@media only screen and (width: 1440px) {
+    .how-did, .saul-bass, .transcend, .the, .boundaries, .of-design, .in-cinema, .how-did-2, .saul-bass-2, .redefine-2, .film-title-2, .sequences-2 {
+        font-size: 55px;
+    }
+    .how-did {
+        top: 10%;
+        left: 31%;
+    }
+    .saul-bass {
+        top: 18%;
+        left: 22%;
+    }
+    .transcend {
+        top: 26%;
+        left: 20%;
+    }
+    .the {
+        top: 34%;
+        left: 35%;
+    }
+    .boundaries {
+        top: 34%;
+        left: 56%;
+    }
+    .of-design {
+        top: 42%;
+        left: 63%;
+    }
+    .in-cinema {
+        top: 50%;
+        left: 62%;
+    }
+    .sequences-quote-credit {
+        margin-top: 200px;
+    }
+}
